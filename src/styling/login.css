@@ -1,0 +1,107 @@
+.login-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../mockup_data/login_bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-title {
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.login-button {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.login-container input[type='text'],
+.login-container input[type='password'] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.login-container label {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.login-container button {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2193b0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.login-container button:hover {
+    background-color: #6dd5ed;
+}
+
+
+.login-container input[type='text']:focus,
+.login-container input[type='password']:focus {
+    border-color: #2193b0;
+    outline: none;
+}
